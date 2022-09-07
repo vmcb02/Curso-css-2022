@@ -1,0 +1,10 @@
+p{
+    background: yellowgreen;
+    border: 5px solid maroon;
+    font-size: 30px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    
+}

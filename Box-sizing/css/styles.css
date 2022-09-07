@@ -1,0 +1,9 @@
+.h1{
+    box-sizing: border-box;
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+
+}

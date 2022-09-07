@@ -1,0 +1,13 @@
+.h1{
+    display: inline-block;
+    background-color: blue;
+    padding: 20px;
+}
+
+.h1--rancio{
+    display: inline-block;
+    background-color: brown;
+    padding: 20px;
+    margin: 10px;
+
+}

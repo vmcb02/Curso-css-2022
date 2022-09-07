@@ -1,0 +1,26 @@
+*{
+    font-size: 40px;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+
+}
+
+.caja1{
+    background: red;
+}
+
+.caja2{
+    background: blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.caja3{
+    background: blueviolet;
+    position: relative;
+}
+

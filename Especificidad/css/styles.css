@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+.title{
+    color: aqua;
+}
+
+#element{
+    color: blueviolet;
+}
+
+h3{
+    color: red !important
+}

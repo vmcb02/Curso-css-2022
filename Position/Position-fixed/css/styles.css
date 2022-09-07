@@ -1,0 +1,14 @@
+div{
+    font-size: 40px;
+}
+
+.div-fixed{
+    background: red;
+    position: fixed;
+    margin-top: -150px;
+    
+}
+
+body{
+    padding-top: 150px;
+}

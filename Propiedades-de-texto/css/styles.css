@@ -1,0 +1,11 @@
+.div{
+    font-size: 25px;
+}
+
+.div__h1{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    font-weight: 700;
+    color: brown;
+}
