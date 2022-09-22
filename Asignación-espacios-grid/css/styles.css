@@ -1,0 +1,32 @@
+body{
+    padding: 15px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 1fr;
+    border: 3px solid #000;
+    background: #333;
+}
+
+.grid-item{
+    border: 1px solid #000;
+    background: #999;
+}
+
+.grid-item:first-child{
+    background: #900;
+    grid-column: 1 / span 2;
+}
+.grid-item:nth-child(3){
+    background: yellowgreen;
+    grid-column: 1 / span 2;
+
+}
+
+.grid-item:nth-child(2){
+    background: blueviolet;
+    grid-column: 3 / span 1;
+    grid-row: 1 / 3;
+}

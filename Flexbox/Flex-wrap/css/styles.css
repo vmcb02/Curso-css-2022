@@ -1,0 +1,25 @@
+.div-container{
+    display: flex;
+    flex-wrap: wrap;
+    background: darkblue
+}
+
+.div{
+    width: 350px;
+    height: 200px;
+    background: pink;
+    margin: 5px;
+}
+
+.divc{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background: maroon;
+}
+
+.divt{
+    background: green;
+    width: 350px;
+    height: 200px;
+    margin: 5px;
+}

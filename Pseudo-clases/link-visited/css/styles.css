@@ -1,0 +1,10 @@
+.caja:link{
+    color: red;
+}
+.caja:visited{
+    color: blue;
+}
+
+.caja{
+    font-size: 25px;
+}

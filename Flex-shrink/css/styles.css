@@ -1,0 +1,15 @@
+.div{
+    display: flex;
+    background: darkblue;
+}
+
+.divt{
+    background: pink;
+    margin: 5px;
+    width: 500px;
+    height: 250px;
+}
+
+.h{
+    flex-shrink: 3;
+}

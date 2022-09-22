@@ -1,0 +1,18 @@
+body{
+    padding: 15px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: repeat( auto-fill, minmax(120px, 1fr));
+    border: 3px solid #000;
+    background: #333;
+    grid-auto-rows: 150px;
+}
+
+.grid-item{
+    border: 1px solid #000;
+    background: #999;
+}
+

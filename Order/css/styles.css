@@ -1,0 +1,23 @@
+.div{
+    display: flex;
+    background: red;
+    
+}
+
+.divt{
+    background: blue;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+
+}
+
+.o{
+    background: yellowgreen;
+    order: 5;
+}
+
+.h{
+    background: yellow;
+    order: 3;
+}

@@ -1,0 +1,41 @@
+.container{
+    height: 650px;
+    background: #86f;
+    padding: 30px 5px;
+}
+
+.caja{
+    background: #025;
+    height: 100px;
+    width: 100px;
+    transition-property: left background;
+    transition-duration: 1s, 3s;
+    margin: 20px;
+    position: relative;
+    left: 0;
+}
+
+.container:hover > .caja{
+    left: 80%;
+    background: lightgreen;
+}
+
+.caja:first-child{
+    transition-timing-function: linear;
+}
+
+.caja:nth-child(2){
+    transition-timing-function: ease;
+}
+
+.caja:nth-child(3){
+transition-timing-function: ease-in;
+}
+
+.caja:nth-child(4){
+transition-timing-function: ease-out;
+}
+
+.caja:nth-child(5){
+transition-timing-function: ease-in-out;
+}

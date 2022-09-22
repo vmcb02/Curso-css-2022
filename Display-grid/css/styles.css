@@ -1,0 +1,17 @@
+body{
+    padding: 15px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 1fr 1fr;
+    border: 3px solid #000;
+    grid-gap: 10px;
+    background: #333;
+}
+
+.grid-item{
+    border: 1px solid #000;
+    background: #999;
+}

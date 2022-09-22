@@ -1,0 +1,26 @@
+.div-container{
+    display: flex;
+    background: darkblue;
+}
+
+.div-item{
+    background: pink;
+    margin: 10px;
+}
+
+.divc{
+    display: flex;
+    flex-direction: column-reverse;
+    background: red;
+    margin: 10px;
+}
+
+.divt{
+    width: 150px;
+    height: 150px;
+    background: yellowgreen;
+    margin: 15px;
+}
+.o{
+    background: blue;
+}

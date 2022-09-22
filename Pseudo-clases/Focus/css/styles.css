@@ -1,0 +1,10 @@
+.caja{
+    background: green;
+    transition: background 1s;
+}
+
+.caja:focus{
+    background: red;
+    width: 100px;
+    height: 70px;
+}

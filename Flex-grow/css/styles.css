@@ -1,0 +1,17 @@
+.div{
+    display: flex;
+    background: darkblue;
+}
+
+.divt{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    flex-grow: 1;
+    margin: 5px;
+
+}
+
+.o{
+    flex-grow: 2;
+}

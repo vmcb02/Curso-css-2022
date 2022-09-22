@@ -1,0 +1,13 @@
+.caja1{
+    background: cadetblue;
+    width: 200px;
+    height: 200px;
+    border: 4px solid blue;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.caja1:hover{
+background: rebeccapurple;
+border: 10px solid black;
+}

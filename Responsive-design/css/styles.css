@@ -1,0 +1,21 @@
+.div-responsive{
+    background: #c95;
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .div-responsive{
+        background: red;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .div-responsive{
+        background: green;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+    .div-responsive{
+        background: orange;
+    }
+}

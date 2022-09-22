@@ -1,0 +1,31 @@
+.grid-container{
+    display: grid;
+    background: #444;
+    grid-template-rows: 
+                  [f-line]
+                  150px 
+                  [s-line]
+                  150px 
+                  [t-line]
+                  150px;
+                  [f-line];
+    grid-template-columns: 
+                  [princio-izquierda]    
+                  150px 
+                  150px 
+                  150px;
+                  [final-line]
+    border: 5px solid #000;
+}
+
+.grid-item{
+    border: 1px solid #000;
+    background: lightgray;
+}
+
+.grid-item:first-child{
+    background: red;
+    grid-row: f-line / t-line;
+    grid-column: princio-izquierda / final-line
+    
+}

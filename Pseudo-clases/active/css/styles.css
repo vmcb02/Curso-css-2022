@@ -1,0 +1,13 @@
+.caja{
+    background: red;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    transition: all 1s ;
+}
+
+.caja:active{
+    background: blue;
+    width: 500px;
+
+}
