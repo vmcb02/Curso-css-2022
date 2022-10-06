@@ -1,0 +1,19 @@
+div{
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+
+:root{
+    --color-negro: #000;
+    --color-amarillo: #ff0;
+}
+
+.container{
+    background: var(--color-amarillo);
+}
+
+.container-2{
+    background: var(--color-negro);
+}

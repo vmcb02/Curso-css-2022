@@ -1,0 +1,33 @@
+.container{
+    padding: 20px 5px;
+    background: #86f;
+}
+
+.caja{
+    height: 80px;
+    width: 80px;
+    background: #025;
+    margin: 20px;
+    animation-name: desplazarse;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    position: relative;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes desplazarse{
+    0%{
+        left: 0;
+        background: #000;
+    }
+    50%{
+        background: red;
+    }
+    100%{
+        left: 80%;
+        background: green;
+    }
+}

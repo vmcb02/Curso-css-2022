@@ -1,0 +1,21 @@
+.container{
+    padding: 20px 5px;
+    background: #86f;
+}
+
+.caja{
+    background: #025;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    display: flex;
+    color: #fff;
+    transition: transform 1s;
+    clip-path: circle(40%);
+    transform: rotate(30deg);
+    
+}
+
+b{
+    margin: auto;
+}

@@ -1,0 +1,10 @@
+.container{
+    padding: 20px 5px;
+    background: #398;
+    height: 200px;
+    margin: 40px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/31/22/08/lion-3576045__480.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

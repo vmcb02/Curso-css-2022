@@ -1,0 +1,24 @@
+.container{
+    width: 700px;
+    height: 500px;
+    background: #222;
+    border: 2px solid #555;
+}
+
+.item{
+    background: #888;
+    border: 1px solid #fff;
+    padding: 1rem;
+}
+
+.sub-item{
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #555;
+}
+
+.nested{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
